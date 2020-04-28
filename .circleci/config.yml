@@ -45,7 +45,7 @@ jobs:
 
 workflows:
   version: 2
-  test:
+  build-test:
     jobs:
       - build
       - test:
