@@ -1,4 +1,4 @@
-const { add } = require("../index");
+const { add } = require("../build/index");
 
 describe("Test", function() {
 	it("adds", function() {
