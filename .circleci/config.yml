@@ -22,8 +22,8 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json }}
       - run:
-        name: Transpiling to .js files
-        command: npm run build
+          name: Transpiling to .js files
+          command: npm run build
       
       - persist_to_workspace:
         root: ~/repo
@@ -33,10 +33,10 @@ jobs:
     <<: *defaults
     steps:
       - attach_workspace:
-        at: ~/repo
+          at: ~/repo
       - run:
-        name: Testing
-        command: npm run test
+          name: Testing
+          command: npm run test
 
       - save_cache:
           paths:
