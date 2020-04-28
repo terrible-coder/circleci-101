@@ -4,7 +4,8 @@
   "description": "Learning to work with circleci",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc ./src/**.ts"
   },
   "author": "",
   "license": "ISC",
