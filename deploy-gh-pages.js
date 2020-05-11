@@ -1,9 +1,10 @@
 const ghpages = require("gh-pages");
+const token = process.env.GH_TOKEN;
 
 ghpages.publish("docs", {
 	dotfiles: true,
 	silent: false,
-	repo: `https://${process.env.GH_TOKEN}@github.com/terrible-coder/circleci-101.git`,
+	repo: `https://${token}@github.com/terrible-coder/circleci-101.git`,
 	user: {
 		name: "Ayanava De",
 		email: "ayanavade01@gmail.com"
