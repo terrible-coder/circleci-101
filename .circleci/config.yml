@@ -88,7 +88,7 @@ workflows:
               ignore: /.*/
       - ghpages:
           requires:
-            - test
+            - build
           filters:
               tags:
                 only: /.*/
