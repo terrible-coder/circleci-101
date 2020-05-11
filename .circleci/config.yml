@@ -54,6 +54,15 @@ jobs:
       - run:
           name: Publish package
           command: npm publish
+  
+  ghpages:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/repo
+      - run:
+          name: Publish to gh-pages
+          command: npm run deploy
 
 workflows:
   version: 2
@@ -77,3 +86,9 @@ workflows:
               only: /^v.*/
             branches:
               ignore: /.*/
+      - ghpages:
+          requires:
+            - test
+          filters:
+              tags:
+                only: /.*/
