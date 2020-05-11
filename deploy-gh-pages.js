@@ -9,7 +9,4 @@ ghpages.publish("docs", {
 		email: "ayanavade01@gmail.com"
 	},
 	message: "Deploy to gh-pages"
-}, err => {
-	console.log("Something went wrong.");
-	console.error(err);
 });
