@@ -4,7 +4,7 @@ const token = process.env.GH_TOKEN;
 ghpages.publish("docs", {
 	dotfiles: true,
 	silent: false,
-	add: true,
+	add: false,
 	repo: `https://${token}@github.com/terrible-coder/circleci-101.git`,
 	user: {
 		name: "Ayanava De",
