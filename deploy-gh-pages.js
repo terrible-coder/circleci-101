@@ -11,6 +11,8 @@ ghpages.publish("docs", {
 	},
 	message: "Deploy to gh-pages"
 }, err => {
-	console.log("Something went wrong");
-	console.error(err);
+	if(err !== undefined) {
+		console.log("Something went wrong");
+		console.error(err);
+	} else console.log("Published");
 });
