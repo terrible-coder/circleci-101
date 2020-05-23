@@ -1,6 +1,6 @@
 {
   "name": "circleci-101",
-  "version": "1.0.8-alpha.1",
+  "version": "1.0.8-beta.0",
   "description": "Learning to work with circleci",
   "main": "index.js",
   "scripts": {
