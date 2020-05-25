@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "deploy": "node deploy-gh-pages.js"
+    "deploy": "node deploy-gh-pages.js",
+    "postversion": "git push && git push --tag"
   },
   "author": "",
   "license": "ISC",
