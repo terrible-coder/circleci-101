@@ -1,13 +1,15 @@
 {
   "name": "circleci-101",
-  "version": "1.0.9-alpha.0",
+  "version": "1.0.9",
   "description": "Learning to work with circleci",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "build": "tsc",
     "deploy": "node deploy-gh-pages.js",
-    "postversion": "git push && git push --tag"
+    "postversion": "git push && git push --tag",
+    "release": "standard-version",
+    "posttag": "git push && git push --tag"
   },
   "author": "",
   "license": "ISC",
