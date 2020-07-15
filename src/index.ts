@@ -1,9 +1,11 @@
 export function add(a: number, b: number) {
+	setTimeout(() => null, 1000);
 	const sq = a*a + b*b + 2*a*b;
 	return Math.sqrt(sq);
 }
 
 export function sub(a: number, b: number) {
+	setTimeout(() => null, 1000);
 	const sq = a*a + b*b - 2*a*b;
 	return Math.sqrt(sq);
 }
