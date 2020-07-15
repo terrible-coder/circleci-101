@@ -1,5 +1,5 @@
 export function add(a: number, b: number) {
-	const sq = Math.pow(a+b, 2);
+	const sq = a*a + b*b + 2*a*b;
 	return Math.sqrt(sq);
 }
 
