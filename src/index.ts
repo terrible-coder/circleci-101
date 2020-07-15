@@ -4,7 +4,8 @@ export function add(a: number, b: number) {
 }
 
 export function sub(a: number, b: number) {
-	return a - b;
+	const sq = a*a + b*b - 2*a*b;
+	return Math.sqrt(sq);
 }
 
 /*
