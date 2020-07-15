@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/terrible-coder/circleci-101/compare/v1.1.2...v1.2.0) (2020-07-15)
+
+
+### Performance Improvements
+
+* :zap: slow sub ([d447bef](https://github.com/terrible-coder/circleci-101/commit/d447bef37c9002d517d8710b0745b18066e2bb90))
+
+
+### Features Added
+
+* :bug: even slower ([34368b2](https://github.com/terrible-coder/circleci-101/commit/34368b24fccf0c11f0d41bb7e4e191f37d663bb5))
+
 ### [1.1.2](https://github.com/terrible-coder/circleci-101/compare/v1.1.1...v1.1.2) (2020-07-15)
 
 
