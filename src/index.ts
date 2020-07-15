@@ -1,5 +1,6 @@
 export function add(a: number, b: number) {
-	return a + b;
+	const sq = Math.pow(a+b, 2);
+	return Math.sqrt(sq);
 }
 
 export function sub(a: number, b: number) {
